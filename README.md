@@ -1,4 +1,4 @@
-# This is a project to fetch the temperature and AQI index of a city
+# Fetching the temperature and AQI index of a city
 
 My first ever website application! Really messy.
 

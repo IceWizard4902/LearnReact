@@ -84,8 +84,8 @@ function WeatherReport(props) {
           {currentCity}
         </strong>{" "}
       </p>
-      <p>Temperature: {Math.round(temp - 273)}℃</p>
-      <p>Real-feel: {Math.round(realFeel - 273)}℃</p>
+      <p id="temp">Temperature: {Math.round(temp - 273)}℃</p>
+      <p id="realfeel">Real-feel: {Math.round(realFeel - 273)}℃</p>
     </div>
   );
 }

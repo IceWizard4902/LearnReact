@@ -15,9 +15,11 @@
   flex-grow: 0;
   font-size: 0.7cm;
 }
+
 .WeatherReport {
   flex-basis: 50%;
-  font-size: 0.5cm;
+  font-size: 0.6cm;
+  font-family: "Roboto Slab", serif;
 }
 
 #aqi {

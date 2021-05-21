@@ -28,8 +28,8 @@ function displayAQI(aqi) {
     return (
       <div className="GoodAQI">
         <h1 id="aqi">{aqi}</h1>
-        <h1>Air Pollution Level: Good</h1>
-        <p>
+        <h1 id="level">Air Pollution Level: Good</h1>
+        <p id="desc">
           Air quality is considered satisfactory, and air pollution poses little
           or no risk
         </p>

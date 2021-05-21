@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+#Title {
+  color: green;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.5cm;
+}
+
+.OverviewBox {
+  flex-basis: 50%;
+  flex-grow: 0;
+  font-size: 0.7cm;
+}
+.WeatherReport {
+  flex-basis: 50%;
+  font-size: 0.5cm;
+}
+
+#aqi {
+  font-family: "Pattaya", sans-serif;
+  font-size: 2.5cm;
+}
+
+#level {
+  font-family: "Farro", sans-serif;
+  font-size: 1cm;
+}
+
+#desc {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.6cm;
+}
+
+.GoodAQI {
+  color: #579b66;
+}
+
+.ModerateAQI {
+  color: #fede33;
+}
+
+.UnhealthySGAQI {
+  color: #ee9633;
+}
+
+.UnhealthyAQI {
+  color: #cf4734;
+}
+
+.VeryUnhealthyAQI {
+  color: #6c4099;
+}
+
+.HazardousAQI {
+  color: #802924;
+}

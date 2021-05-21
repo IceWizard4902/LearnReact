@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import HeaderBox from "./Component/HeaderBox";
+import AQIHandle from "./Component/AQIHandle";
+import "./styles.css";
+import { useState } from "react";
 
 function App() {
+  const [currentCity, setCurrentCity] = useState("Hanoi");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderBox currentCity={currentCity} setCurrentCity={setCurrentCity} />
+      <main>
+        <AQIHandle currentCity={currentCity} />
+      </main>
     </div>
   );
 }
